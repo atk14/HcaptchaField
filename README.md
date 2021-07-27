@@ -3,7 +3,9 @@ HcaptchaField
 
 HcaptchaField is a field for protecting forms against spam in ATK14 applications.
 
-It uses [hCaptcha API](https://www.hcaptcha.com/)
+It uses [hCaptcha API](https://www.hcaptcha.com/).
+
+HcaptchaField is an alternative to [RecaptchaField](https://packagist.org/packages/atk14/recaptcha-field) without Google.
 
 Installation
 ------------

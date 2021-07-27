@@ -7,7 +7,7 @@ class HcaptchaField extends CharField {
 			"error_messages" => array(
 				"required" => _("Please try to solve the test. It is important for us to be sure that we are communicating with a human."),
 				"invalid" => _("The test was not successful. Please try it again."),
-				"service_unavailable" => _("We are experiencing some technical issue during the communication with Google. Please try it later."),
+				"service_unavailable" => _("We are experiencing some technical issue during the communication with an captcha API. Please try it later."),
 			)
 		),$options);
 		parent::__construct($options);
