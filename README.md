@@ -22,7 +22,7 @@ You must define two constants in config/settings.php. Sign-up to hCaptcha and ge
 
     // ...
     define("HCAPTCHA_SITE_KEY","178bdce1-a1be-5969-c712-852308e012a0");
-    define("HCAPTCHA_SECRET_KEY","0x15722de15712c967eA265F86c79A51a46e461F00";
+    define("HCAPTCHA_SECRET_KEY","0x15722de15712c967eA265F86c79A51a46e461F00");
 
 Optionally you can symlink the HcaptchaField files into your project:
 
