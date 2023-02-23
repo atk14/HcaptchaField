@@ -25,7 +25,7 @@ class HcaptchaField extends CharField {
 
 		$request = &$GLOBALS["HTTP_REQUEST"];
 
-		$response = trim($request->getPostVar("g-recaptcha-response"));
+		$response = trim((string)$request->getPostVar("g-recaptcha-response"));
 		if(strlen($response)==0){
 			return array($this->messages["required"],null);
 		}
